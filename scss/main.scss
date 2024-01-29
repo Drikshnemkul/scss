@@ -1,6 +1,10 @@
-@import "./config";
-@import "./home";
+@import "config";
+@import "home";
 @import "./menu";
+@import "./about";
+@import "./project";
+@import "./contact";
+@import "./responsive";
 
 body {
   background: $primary-color;
@@ -40,7 +44,6 @@ main {
     position: fixed;
     bottom: 1rem;
     left: 1rem;
-    // background-color: green;
 
     a {
       padding: 0.4rem;
